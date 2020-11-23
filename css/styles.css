@@ -1,0 +1,155 @@
+:root {
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  color: #212121;
+}
+.address {
+  font-style: normal;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ===== HEADER ===== */
+.nav-logo {
+  font-family: var(--secondary-font)
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.nav-logo span {
+  color: #2196f3;
+}
+
+.nav-list-link {
+  font-weight: 500;
+  line-height: 1, 143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.site-nav .nav-list-link.is-current,
+.header-mail:hover,
+.header-mail:focus,
+.header-phone:hover,
+.header-phone:focus {
+  color: var(--accent-color);
+}
+
+.header-mail,
+.header-phone {
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/* ===== END HEADER ===== */
+
+/* ===== HERO ===== */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
+.hero-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  background-color: #2196f3;
+}
+/* ===== END HERO ===== */
+
+/* ===== ADVANTAGES ===== */
+.advantages-list-title {
+  font-weight: 700;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-list-undertitle {
+  font-weight: normal;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ===== END ADVANTAGES ===== */
+
+/* ===== TEAMS ===== */
+.teams-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teams-list-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ===== END TEAMS ===== */
+
+
+/* ===== FOOTER ===== */
+.footer-logo {
+  font-family: var(--secondary-font)
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  /* color: #FFFFFF; */
+}
+
+.footer-logo span {
+  color: #2196f3;
+}
+
+.footer-address-list {
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+/* color: #FFFFFF; */
+}
+
+.footer-mail,
+.footer-phone {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+/* color: rgba(255, 255, 255, 0.6); */
+}
+
+/* ===== END FOOTER ===== */
