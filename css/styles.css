@@ -21,7 +21,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* ===== HEADER ===== */
+/* ========== HEADER ========== */
 .nav-logo {
   font-family: var(--secondary-font)
   font-weight: 700;
@@ -58,9 +58,12 @@ body {
   color: #757575;
 }
 
-/* ===== END HEADER ===== */
+/* ========== END HEADER ========== */
 
-/* ===== HERO ===== */
+
+/* =============== PAGE STUDIO ============== */
+
+/* ========== HERO ========== */
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -80,9 +83,9 @@ body {
   color: #FFFFFF;
   background-color: #2196f3;
 }
-/* ===== END HERO ===== */
+/* ========== END HERO ========== */
 
-/* ===== ADVANTAGES ===== */
+/* ========== ADVANTAGES ========== */
 .advantages-list-title {
   font-weight: 700;
   line-height: 1.143;
@@ -96,10 +99,12 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/* ========== END ADVANTAGES ========== */
 
-/* ===== END ADVANTAGES ===== */
-
-/* ===== TEAMS ===== */
+/* ========== TEAMS ========== */
+.teams{
+  background-color: #F5F4FA;
+}
 .teams-list-name {
   font-weight: 500;
   font-size: 16px;
@@ -116,17 +121,23 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-/* ===== END TEAMS ===== */
+/* ========== END TEAMS ========== */
+
+/* =============== END PAGE STUDIO ============== */
 
 
-/* ===== FOOTER ===== */
+
+/* ========== FOOTER ========== */
+.footer {
+  background-color: #2F303A;
+}
 .footer-logo {
   font-family: var(--secondary-font)
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  /* color: #FFFFFF; */
+  color: #FFFFFF; 
 }
 
 .footer-logo span {
@@ -134,22 +145,62 @@ body {
 }
 
 .footer-address-list {
-  font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-/* color: #FFFFFF; */
-}
-
-.footer-mail,
-.footer-phone {
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
-/* color: rgba(255, 255, 255, 0.6); */
+color: #FFFFFF;
 }
 
-/* ===== END FOOTER ===== */
+.footer-map{
+  color: #FFFFFF;
+}
+.footer-mail,
+.footer-phone {
+color: rgba(255, 255, 255, 0.6);
+}
+/* ========== END FOOTER ========== */
+
+
+
+/* ============== PAGE PORTFOLIO =============== */
+
+/* ========== PORTFOLIO ========== */
+.portfolio-button {
+font-family: var(--main-font)
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF; 
+background-color: #2196f3;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+color: #212121; 
+background-color: #F5F4FA;
+}
+
+.portfolio-project {
+font-family: var(--main-font)
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.portfolio-category {
+font-family: var(--main-font)
+font-weight: 400;
+font-size: 16px;
+line-height: 0.063;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/* ========== END PORTFOLIO ========== */
+
+/* ============== END PAGE PORTFOLIO =============== */
